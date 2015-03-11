@@ -114,8 +114,6 @@
          validate_multisample_buffer_allocation)             \
   GPU_OP(WAKE_UP_GPU_BEFORE_DRAWING,                         \
          wake_up_gpu_before_drawing)                         \
-  GPU_OP(DISABLE_EGL_KHR_WAIT_SYNC,                          \
-         disable_egl_khr_wait_sync)                          \
 
 namespace gpu {
 
