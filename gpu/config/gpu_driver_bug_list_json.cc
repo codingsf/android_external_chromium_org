@@ -955,11 +955,7 @@ LONG_STRING_CONST(
       "cr_bugs": [278606, 382686],
       "description": "Testing EGL sync fences was broken on most Qualcomm drivers",
       "os": {
-        "type": "android",
-        "version": {
-          "op": "<=",
-          "value": "5.0.2"
-        }
+        "type": "android"
       },
       "gl_vendor": {
         "op": "beginwith",
